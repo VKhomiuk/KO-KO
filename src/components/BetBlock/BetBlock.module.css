@@ -1,0 +1,135 @@
+.betWrapper {
+    border-radius: 10px;
+    background: #FFF2DA;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.betHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.title {
+    font-family: Kanit, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #86631E;
+}
+
+.betBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating {
+    color: #1dbf71;
+    margin-left: 4px;
+}
+
+.playersWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.counterWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.count {
+    width: 32px;
+    height: 32px;
+    background: #F7AB18;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0E0707;
+    font-family: Kanit, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.id {
+    white-space: nowrap;
+}
+
+.counter {
+    font-family: Kanit, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.buttonsWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 16px;
+    margin-top: 16px;
+}
+
+.button {
+    width: 45vw;
+    height: 28px;
+    /*background: var(--tg-theme-button-color);*/
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.descriptionWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 16px;
+}
+
+.description {
+    font-family: Kanit, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #86631E;
+}
+
+.price {
+    font-family: Kanit, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    color: #0E0707;
+}
+
+.button[data-button-type='red'] {
+    background-color: color-mix(in srgb, red 30%, transparent);
+    color: red;
+}
+
+.button[data-button-type='yellow'] {
+    background-color: color-mix(in srgb, #F7AB18 70%, transparent);
+    color: #0E0707;
+}
+
+.buttonText {
+    font-family: Kanit, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,22 @@
+.tab {
+    padding: 6px 20px;
+    border-radius: 10px;
+    background: color-mix(in srgb, #EBEBEB 70%, transparent);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+
+}
+
+.tab span {
+    font-family: Kanit, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.15px;
+    color: #0E0707;
+}
+
+.tab[data-active='true'] {
+    background: color-mix(in srgb, #F7AB18 70%, transparent)
+}

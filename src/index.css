@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  font-family: Kanit, sans-serif;
+  font-weight: 700;
+  box-sizing: border-box;
+}

@@ -1,0 +1,6 @@
+export const itemsTypes = {
+    ADD_ITEM: 'ADD_ITEM',
+    REMOVE_ITEM: 'REMOVE_ITEM',
+    CHANGE_ITEM_COUNTER: 'CHANGE_ITEM_COUNTER',
+    UPDATE_ITEM: 'UPDATE_ITEM',
+}

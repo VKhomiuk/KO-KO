@@ -1,0 +1,25 @@
+.addRoomWrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 8px 16px 20px 16px;
+}
+
+.addRoomButton {
+    width: 100%;
+    height: 54px;
+    background: color-mix(in srgb, #F7AB18 70%, white);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.addRoomText {
+    font-family: Kanit, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #0E0707;
+}

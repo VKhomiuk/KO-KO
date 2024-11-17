@@ -1,0 +1,88 @@
+.wrapper {
+    padding: 16px;
+    background: white;
+}
+
+.contentWrapper {
+    padding: 16px;
+    background: white;
+    margin-bottom: 82px;
+}
+
+.searchTitle {
+    color: #79747E;
+    font-size: 32px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.button {
+    width: 45vw;
+    height: 100%;
+    background: #79747E;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonText {
+    font-family: Kanit, sans-serif;
+    color: #0E0707;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.input {
+
+    font-family: Kanit, sans-serif;
+    font-size: 20px;
+    padding-left: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #0E0707;
+    width: 100%;
+    background: color-mix(in srgb, #EBEBEB 70%, transparent);;
+}
+
+.inputWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 45px;
+    height: 45px;
+    margin-top: 16px;
+}
+
+.addRoomWrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 8px 16px 20px 16px;
+}
+
+.addRoomButton {
+    width: 100%;
+    height: 54px;
+    background: color-mix(in srgb, #F7AB18 70%, white);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.addRoomText {
+    font-family: Kanit, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #0E0707;
+}
